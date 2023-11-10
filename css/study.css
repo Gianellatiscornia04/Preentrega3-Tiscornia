@@ -393,10 +393,8 @@ text-align: center;
     grid-row-start: span 2;
 }
     /* --------SERVICIOS------------ */
-    .body-servis{
-        background-image: url(../img/body\ \ servis.jpg)
-        
-
+    .subtitulo{
+        width: 50%;
     }
     .servis-tittle h1,h2{
         text-align: center;
@@ -605,7 +603,7 @@ padding: 50px;
 /* 320px hasta 480 */
     .datos{
        display: grid;
-       margin-top: 60%;
+       margin-top: 80%;
        height: 80%;
        width: 100%;
        right: 1%;
@@ -614,7 +612,7 @@ padding: 50px;
        margin-right: 30%;
     }
     .datos .uno{
-       margin: top -7px;%;
+       margin-top: -7%;
     }
     .mapa{
         margin-top: 100%;
