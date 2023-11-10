@@ -603,7 +603,7 @@ padding: 50px;
 /* 320px hasta 480 */
     .datos{
        display: grid;
-       margin-top: 0%;
+       margin-top: 80%;
        height: 80%;
        width: 100%;
        right: 1%;
