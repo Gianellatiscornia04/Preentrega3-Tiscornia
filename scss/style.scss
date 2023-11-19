@@ -10,59 +10,15 @@
     box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2? family= Archivo:ital,wght@1,300 & family= Great+Vibes & display=swap');
-/* NAVEGACION */
-nav.cabezera {
-    width: 100%;
-    height: 80px;
-    background-color: rgba(68, 111, 204, 0.842);
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    display: flex; 
-    align-items: center;
-    justify-content: space-between;
-    .logo-tipo{
-        margin-top: 8px;
-        width: 30%;
-        background-color: rgba(88, 131, 223, 0.014);
-        display: flex;
-        align-items: center;
-        .logo{
-            width: 70px;
-            height: 70px;
-        }
-        span{
-            font-size: 1.6rem;
-            font-weight: 600;
-        }
-    }
-}
-#menu, .cabezera label{
-    display: none;
-}
-.cabezera label{
-    font-size: 1.3rem;
-}
-.navegacion{
-    display: flex;
-    list-style: none;
-    width: 50%;
-    background-color: rgba(88, 131, 223, 0);
-    .bx{
-        font-size: 1rem;
-    }
-    .nav_item{
-        margin-left: 10px;
-        padding: 10px;
-        .hover{
-            background-color: rgb(15, 111, 150);
-        }
-        a{
-            color: #080808af;
-        }
-        
-    }
-}
+/* LOGO */
+.logo{
+    width: 100px;
+    height: 100px;}
+    /* NAVEGADOR */
+   
+   
+/* CONTENEDOR */
+
 .img1{
     
     top: 0;
@@ -75,15 +31,16 @@ nav.cabezera {
        object-fit: cover;
    }
 }
+
 .titulo1-2{
     position: absolute;
     background-color: rgba(12, 12, 12, 0.555);
     color: #fff;
-    top: 20%;
+    top: 25%;
     left: 60%;
     padding: 20px;
-    width: 400px;
-    height: 500px;
+    width: 380px;
+    height: 540px;
     font-size: 1.2rem;
     h1{
         font-size: 2rem;
@@ -126,10 +83,12 @@ nav.cabezera {
             margin-top: 10px;
         }
     
+        
+        }
+    
     }
     
-}
-
+/* TESTIMONIOS */
 .main{
     width: 100%;
     max-width: 1200px;
@@ -151,15 +110,15 @@ nav.cabezera {
 }
 .photo-perfil1{
     background-image: 
-    url(../img/cliente-one.jpg)
+    url(../assets/imagenes/cliente-one.jpg)
 }
 .photo-perfil2{
     background-image: 
-    url(../img/cliente-two.jpg);
+    url(../assets/imagenes/cliente-two.jpg);
 }
 .photo-perfil3{
     background-image: 
-    url(../img/cliente-three.jpg);
+    url(../assets/imagenes/cliente-three.jpg);
 }
 .container-redes{
     margin-top: 20px;
@@ -183,63 +142,23 @@ nav.cabezera {
     background-color: rgb(226, 226, 103); 
     text-align: center;  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url(../img/perros\ pequeños.jpg);
+    background-image: url(../assets/imagenes/perros\ pequeños.jpg);
     background-size: cover;
     background-position: center -20px;
    }
    .text-capa{
     color: white;
-    text-shadow:0 0 10px black;
+    text-shadow:0 0 10px rgb(7, 6, 6);
     text-align: center ;
     width: 50%;
     margin: 2rem auto;
     height: 50%;
-    padding-top: 170px;
+    padding-top: 30px;
    }
    /* -----SECCION 2---- */
-.information{
-    width: 100%;
-    max-width: 1200px;
-    height: 350px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-    margin-top: 40px;
-    .card{
-        width: 330px;
-        height: 350px;
-        border-radius: 8px;
-        box-shadow:0 2px 2px rgba(0, 0, 0, 0.2);
-        overflow: hidden;
-        margin: 20px;
-        text-align: center;
-        transition: all 0.25s;
-        .card:hover{
-            transform: translateY(-15px);
-            box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-        
-        }
-        .card img{
-            width: 330px;
-            height: 220px;
-        }
-        h3{
-            font-weight: 600;
-        }
-        p{
-            padding: 0 1rem;
-            font-size: 16px;
-            font-weight: 300;
-        }
-        a{
-            font-weight: 500;
-            text-decoration: none;
-            color: #3498db; 
-        }
-    
-    }
-}
+   .col1{
+    margin-top: 50px;
+   }
  /* ----------CONOCENOS---------- */
 /* CONTENEDOR */
 .contenedor-222{
@@ -493,33 +412,9 @@ text-align: center;
     }
     /* -----------FOOTER------------- */
     
-    footer {
-        margin-top: 60px;
-        background-color: #366379;
-        color: #ffffff;
-        text-align: center;
-        a {
-            color: #1a1717;
-            text-decoration: none;
-            margin: 0 10px;
-            :hover {
-                color: #3498db;
-            }
-        }
-    
-    }
+  
 
-    .logo-footer{
-        width: 10%;
-    }
-    @media screen and (max-width:480px){
-        .pie-pagina .grupo-1{
-            width: 90%;
-            grid-template-columns: repeat(1,1fr);
-            grid-gap:20px;
-            padding: 10px -100px;
-        }
-    }
+
 
 
     
@@ -532,73 +427,83 @@ text-align: center;
 /* 320px hasta 480 */
 
 /* ------------inicio------------ */
-  @media (max-width:480px){
-    .cabezera label{
-        display: block;
-    }
-    .navegacion{
-        display: none;
-    }
+@media screen and (max-width:576px){
+    
 
-    .cabezera #menu:checked~.navegacion{
-        background: hsla(192, 53%, 53%, 0.816);
-        width: 
-        40%;
-        height: 40vh;
-        position: absolute;
-        left: 55%;
-        top: 40px;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: start;
-    }
-    .nav_item{
-        font-size: 1.3rem;
-    }
+   
     .titulo1-2{
-      left:0;
       width: 100%;
+      height: 100%;
     }
+    .sub-titulo{
+        padding: 0;
+    }
+   
+   
+    
+        .text-capa{
+            width: 100%;
+            top: 20px;
+        }
+        
+
+    
 .caja-text{
     width: 100%;
     left: 0;
     font-size: 20px;
-    top: 10;
 }
-.imagenes123 .relleno{
-    background-color: aqua;
-    grid-template-columns: 1fr, 1fr;
 }
-.text-capa{
-width: 100%;
-padding: 50px;
-}
-.footer{
-    display: block;
-    margin-top: 200%;
+  @media screen and (max-width:768px){
+    .titulo1-2{
+        left:0px;
+        width: 100%;
+        height: 85%;
+       padding-top: 40px;
+    
+      }
+      .sub-titulo{
+        padding-top: 80px;
+      }
+    
+      
+        .text-capa{
+            width: 100%;
+            padding-top: 100px;
+            font-size: 1.4rem;
+        }
+      }
+    
+     
+        
+          
+      
+      
+  .caja-text{
+      width: 100%;
+      left: 0;
+      font-size: 20px;
+      top: 10px;
+  }
+      
+      @media screen and (max-width:992px){
+.titulo1-2{
+    height: 95%;
+    font-size: 1.1em;
 
 }
-    /* Conocenos vista mobile */
-/* 320px hasta 480 */
-    .datos{
-       display: grid;
-       margin-top: 80%;
-       height: 80%;
-       width: 100%;
-       right: 1%;
-    }
-    .bx-headphone, .bxl-instagram,.bx-envelope, .bx-map{
-       margin-right: 30%;
-    }
-    .datos .uno{
-       margin-top: -7%;
-    }
-    .mapa{
-        margin-top: 100%;
-    }
-    /* CONONCENOS---------- */
-.contenedor-222{
+.text-capa{
     width: 100%;
+    padding-top: 100px;
+    font-size: 1.4rem;
 }
+      }
+    
+  @media screen and (max-width:1200px){
+    .text-capa{
+        width: 70%;
+        padding-top: 100px;
+        font-size: 1.4rem;
+    }
   }
+
