@@ -1,133 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <!--BOXICONS-->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-    <!--CSS-->
-    <link rel="stylesheet" href="./css/grid.css">
-    <link rel="stylesheet" href="./css/style.css">
-
-    <title>Contactanos-nudipets</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!---BOXICONS-->
+      
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <!--BOOTSTRAP-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+     
+  
+      <!--CSS-->
+      <link rel="stylesheet" href="./css/media.css">
+      <link rel="stylesheet" href="./css/style.css">
+    <title>Contacto-nudipets</title>
 </head>
-<body >
-    <nav class="cabezera">
-
-
-        <!---LOGOTIPO---->
-        <div class="logo-tipo">
+<body class="body-img">
+    <!-- NAVEGACION -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top ">
+        <div class="container-fluid">
+          <div class="logo-tipo">
             <img 
             src="./assets/imagenes/patita-de-perro-removebg-preview.png" alt="logo nuditos"
-            class="logo"
-            />
-    <span>Nudipets</span>
+            class="logo">
         </div>
-         <!----menu mobile-->
-         <input type="checkbox" id="menu" class="nav__input">
-    <!--NAVEGACION-->
+          <a class="navbar-brand" href="#">Nudipets</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="true" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-disabled="true" href="#">Contactanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"aria-disabled="true" href="#">Reservas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- CONTENEDOR -->
+      <div class="content">
+        <h1 class="logo1">¡Nos mantenemos Conectados!</h1>
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h3>Contacto</h3>
+                <form>
+                    <p>
+                        <label>Nombre</label>
+                        <input type="text" name="Nombre" id="Nombre">
+                    </p>
+                    <p>
+                        <label>Apellido</label>
+                        <input type="text" name="Apellido" id="Apellido">
+                    </p>
+                    <p>
+                        <label>Correo Electronico</label>
+                        <input type="email" name="email">
 
-    <ul class="navegacion">
-      <li class="nav_item">
-          <a href="/index.html">
-              <i class='bx bx-home-alt-2'></i>
-          
-              Inicio
-          </a>
-      </li>
-      <li class="nav_item">
-          <a href="./conocenos.html">
-              <i class='bx bxs-group'></i>
-              Conocenos
-          </a>
-      </li>
-      <li class="nav_item">
-          <a href="./servicios.html">
-              <i class='bx bxl-baidu'></i>
-              Servicios
-          </a>
-      </li>
-      <li class="nav_item">
-          <a href="./contactanos.html">
-              <i class='bx bxs-phone'></i>
-              Contactanos
-          </a>
-      </li>
-      <li class="nav_item">
-          <a href="./turno.html">
-              <i class='bx bxs-pencil'></i>
-              Turnos
-          </a>
-      </li>
-  </ul>
-  <label for="menu">
-    <i class="bx bx-menu"></i>
-    
-</label>
-  
-</nav>
-<!---HEADER-->
-<header>
-    <h1>Como contactarnos</h1>
-    <p class="subtitulo">Estamos comprometidos con brindarte el mejor servicio posible. Tu satisfacción es nuestra prioridad, y estamos aquí para garantizar que tengas una experiencia positiva con Nudipets. ¡Esperamos escucharte pronto!</p>
-    <!--formulario-->
-    <section>
-    <h2 class="principal">Suscríbete para recibir promociones y consejos de cuidado</h2>
-           
-    <section class="formulario">
-<form action="" method="post" >
- <label for="Nombre">Nombre</label>
- <li><input type="text" id="Nombre" name="Nombre" placeholder="Nombre*"></li>
- <label for="Apellido">Apellido</label>
- <li><input type="text" id="Apellido" name="Apellido" placeholder="Apellido*"></li>
- <label for="Email">Email</label>
- <li><input type="text" id="Email" name="Email" placeholder="Email*"></li>
- <label for="Mensaje" >Mensaje</label>
- <li><input type="text" id="Mensaje" name="Mensaje" placeholder="Mensaje*"></li>
- <li><input type="submit" value="Enviar">
- <input type="reset" value="Cancelar"></li>
-</form>
-</section>
-<!--fin de formulario-->
-</header>
-<!---DATOS DE CONTACTO--->
-<div class="datos">
-    <i class='bx bx-headphone'></i>
-    <p class="uno">Teléfono</p>
-    <p>11-2345-6789</p>
-    <i class='bx bxl-instagram'></i>
-    <p class="uno">Instagram</p>
-    <p>@peluquerianuditos</p>
-    <i class='bx bx-envelope'></i>
-    <p class="uno">Email</p>
-    <p>peluquerianuditos@gmail.com</p>
-    <i class='bx bx-map'></i>
-    <p class="uno">Ubicacion</p>
-    <p>Av.Falsa 123,Bs.As,Argentina</p>
-</div>
-<!---SECCION UBICACION-->
-<section class="mapa">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13152.508166985968!2d-58.70303314999999!3d-34.499663399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1698019440409!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</section>
-<footer>
-    <img class="logo-footer" src="./assets/imagenes/patita-de-perro-removebg-preview.png" alt="">
+                    </p>
+                    <p>
+                    <label>Teléfono</label>
+                    <input type="tel" name="phone">
+                    </p>
+                    
+                    <p class="block">
+                        <label>Mensaje</label>
+                        <textarea name="mensaje" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit">
+                            enviar
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>Contactanos</h4>
+                <ul>
+                    <li><i class="bx bx-map">Av.Falsa 123</i></li>
+                    <li><i class="bx bx-headphone"> 1123456789</i></li>
+                    <li><i class="bx bx-envelope">peluquerianuditoss@gmail.com</i></li>
+                </ul>
+                <p>Estamos comprometidos con brindarte el mejor servicio posible. Tu satisfacción 
+                    es nuestra prioridad, y estamos aquí para garantizar
+                     que tengas una experiencia positiva con Nudipets. ¡Esperamos escucharte pronto!</p>
+                     <p>nudipets.com</p>
 
-    <p>Contáctanos: <a href="mailto:peluquerianuditos@gmail.com">peluquerianuditos@gmail.com</a></p>
-    <p>Teléfono: (123) 456-7890</p>
-    
-  <div class="red"  >
-    <p>Síguenos en las redes sociales:</p>
-    <a href="#" class="bx bxl-facebook">Facebook</a>
-    <a href="#" class="bx bxl-twitter">Twitter</a>
-    <a href="#" class="bx bxl-instagram">Instagram</a>
-    <p>&copy; 2023 Mi Sitio Web - Todos los derechos reservados</p>
-   </div>
+            </div>
+        </div>
+      </div>
+      <!-- SECCION DE UBICACION -->
+      <h2 class="text-center">¿Donde nos ubicamos?</h2>
+      <section class="ubicacion">
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13152.508166985968!2d-58.70303314999999!3d-34.499663399999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1698019440409!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+       <!-- FOOTER -->
+  <footer class="bg-light text-dark pt-5 pb-4">
+    <div class="container text-center text-md-start">
+      <div class="row text-center text-md-start">
+        <div class="col-md-3 col-lg-3 con-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Nosotros</h5>
+          <hr class="mb-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iure exercitationem, sequi in excepturi laborum ea placeat autem consequatur nam!
+          </p>
+        </div>
+        
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-primary">links</h5>
+          <hr class="mb-4">
+          <p>
+            <a href="#" class="text-dark">inicio</a>
+          </p>
+          <p>
+            <a href="#" class="text-dark">servicios</a>
+          </p>
+          <p>
+            <a href="#" class="text-dark">conocenos</a>
+          </p>
+          <p>
+            <a href="#" class="text-dark">contactanos</a>
+          </p>
+          <p>
+            <a href="#" class="text-dark">saca tu turno</a>
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-primary">links</h5>
+          <hr class="mb-4">
+          <p>
+            <i class="bi bi-facebook">Facebook</i>
+            
+          </p>
+          <p>
+            <i class="bi bi-instagram">Instagram</i>
+            
+          </p>
+          <p>
+            <i class="bi bi-pinterest">Pinterest</i>
+            
+          </p>
+          <p>
+            <i class="bi bi-linkedin">Linkedin</i>
+            
+          </p>
+         
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-primary">otros</h5>
+          <hr class="mb-4">
+          <p>
+            <a href="#" class="text-dark">tu cuenta</a>
+          </p>
+          <p>
+            <a href="#" class="text-dark">tus turnos</a>
+          </p>
+          <p>
+            <a href="#" class="text-dark">ayuda</a>
+          </p>
+        </div>
+        <hr class="mb-4">
+        <div class="text-center mb-2">
+          <p>
+            copyright Todos los derechos reservados
+            <a href="#">
+              <strong class="text-primary">test</strong>
+            </a>
+          </p>
+        </div>
+
+      </div>
+    </div>
 
 
+ 
 
-
-
-</footer>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

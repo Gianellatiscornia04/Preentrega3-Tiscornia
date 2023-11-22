@@ -3,158 +3,226 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!---BOXICONS-->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    
-
-    <!--CSS-->
-    <link rel="stylesheet" href="./css/media.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>conocenos-nudipets</title>
+      <!---BOXICONS-->
+      
+      <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      <!--BOOTSTRAP-->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+     
+  
+      <!--CSS-->
+      <link rel="stylesheet" href="./css/media.css">
+      <link rel="stylesheet" href="./css/style.css">
+    <title>Contacto-nudipets</title>
 </head>
 <body>
-    <header>
-    <nav class="cabezera">
-
-
-        <!---LOGOTIPO---->
-        <div class="logo-tipo">
+    <!-- NAVEGACION -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary sticky-top ">
+        <div class="container-fluid">
+          <div class="logo-tipo">
             <img 
             src="./assets/imagenes/patita-de-perro-removebg-preview.png" alt="logo nuditos"
-            class="logo"
-            />
-    <span>Nudipets</span>
+            class="logo">
         </div>
-         <!----menu mobile-->
-         <input type="checkbox" id="menu" class="nav__input">
-    <!--NAVEGACION-->
+          <a class="navbar-brand" href="#">Nudipets</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="true" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-disabled="true" href="#">Contactanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"aria-disabled="true" href="#">Reservas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- CONTENEDOR -->
+      <div class="card text-bg-dark">
+        <img src="./assets/imagenes/body2.jpg" class="card-img" style="height: 500px;" alt="...">
+        <div class="card-img-overlay">
+          <h1 class="card-title text-center">Sobre Nosotros</h1>
+          <h2 class="card-text text-center">Donde el estilo y el bienestar de tus amigos peludos son nuestra pasión. 
+            En Nudipets, entendemos que tus mascotas son más que solo animales, son miembros de tu familia.
+             Nuestra misión es proporcionar un oasis de cuidado, comodidad y estilo para tus amigos de cuatro patas, 
+             asegurándonos de que siempre luzcan y se sientan en su mejor forma. Nuestro talentoso equipo de estilistas caninos está compuesto 
+             por profesionales apasionados que adoran a los perros tanto como tú.</h2>
+          <p class="card-text"><small>Nudipets.com</small></p>
+        </div>
+      </div>
+      <!-- SECCION -->
+      <h2 class="text-center text-uppercase">Nosotros</h2>
+      <div class="row row-cols-1 row-cols-lg-4 row-cols-md-3 g-6">
+        <div class="col">
+          <div class="card">
+            <img src="./assets/imagenes/nosotros4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Enrique Morales</h3>
+              <p class="card-text">Peluquero profesional Canino</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./assets/imagenes/nosotros3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Jessica Paggiere</h3>
+              <p class="card-text">Profecional en Baño y Aseo</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./assets/imagenes/nosotros1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Roxana Castro</h3>
+              <p class="card-text">Estilista Profecional Canina y Felina</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./assets/imagenes/nosotros.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="card-title">Joaquin Molla</h3>
+              <p class="card-text">Profecional en Baño y Aseo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- CLIENTES -->
+      <section id="galeria">
+        <div class="text-center pt-5 text-uppercase">
+            <h2>Nuestros Mejores clientes!</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="./assets/imagenes/galeria2.jpg" alt="Galeria Img" title="imagen de nuestros mejores clientes">
+                <h3 class="subti text-center">Mora</h3>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="./assets/imagenes/galeria3.jpg" alt="Galeria Img" title="imagen de nuestros mejores clientes">
+                <h3 class="subti text-center">Lilo</h3>
 
-        <ul class="navegacion">
-        <li class="nav_item">
-            <a href="/index.html">
-                <i class='bx bx-home-alt-2'></i>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="./assets/imagenes/galeria4.jpg" alt="Galeria Img" title="imagen de nuestros mejores clientes">
+                <h3 class="subti  text-center">Bamban</h3>
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="./assets/imagenes/galeria6.jpg" alt="Galeria Img" title="imagen de nuestros mejores clientes">
+                <h3 class="subti text-center">Boris</h3>
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="./assets/imagenes/galeria7.jpg" alt="Galeria Img" title="imagen de nuestros mejores clientes">
+                <h3 class="subti text-center">Lolito</h3>
+
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <img src="./assets/imagenes/galeria8.jpg" alt="Galeria Img" title="imagen de nuestros mejores clientes">
+                <h3 class="subti text-center">Canela</h3>
+
+            </div>
+        </div>
+    </section>
+       <!-- FOOTER -->
+  <footer class="bg-light text-dark pt-5 pb-4">
+    <div class="container text-center text-md-start">
+      <div class="row text-center text-md-start">
+        <div class="col-md-3 col-lg-3 con-xl-3 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-primary">Nosotros</h5>
+          <hr class="mb-4">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo iure exercitationem, sequi in excepturi laborum ea placeat autem consequatur nam!
+          </p>
+        </div>
+        
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-primary">links</h5>
+          <hr class="mb-4">
+          <p>
+            <a href="#" class="text-dark">inicio</a>
+          </p>
+          <p>
+            <a href="#" class="text-dark">servicios</a>
+          </p>
+          <p>
+            <a href="#" class="text-dark">conocenos</a>
+          </p>
+          <p>
+            <a href="#" class="text-dark">contactanos</a>
+          </p>
+          <p>
+            <a href="#" class="text-dark">saca tu turno</a>
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-primary">links</h5>
+          <hr class="mb-4">
+          <p>
+            <i class="bi bi-facebook">Facebook</i>
             
-                Inicio
+          </p>
+          <p>
+            <i class="bi bi-instagram">Instagram</i>
+            
+          </p>
+          <p>
+            <i class="bi bi-pinterest">Pinterest</i>
+            
+          </p>
+          <p>
+            <i class="bi bi-linkedin">Linkedin</i>
+            
+          </p>
+         
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h5 class="text-uppercase mb-4 font-weight-bold text-primary">otros</h5>
+          <hr class="mb-4">
+          <p>
+            <a href="#" class="text-dark">tu cuenta</a>
+          </p>
+          <p>
+            <a href="#" class="text-dark">tus turnos</a>
+          </p>
+          <p>
+            <a href="#" class="text-dark">ayuda</a>
+          </p>
+        </div>
+        <hr class="mb-4">
+        <div class="text-center mb-2">
+          <p>
+            copyright Todos los derechos reservados
+            <a href="#">
+              <strong class="text-primary">test</strong>
             </a>
-        </li>
-        <li class="nav_item">
-            <a href="./conocenos.html">
-                <i class='bx bxs-group'></i>
-                Conocenos
-            </a>
-        </li>
-        <li class="nav_item">
-            <a href="./servicios.html">
-                <i class='bx bxl-baidu'></i>
-                Servicios
-            </a>
-        </li>
-        <li class="nav_item">
-            <a href="./contactanos.html">
-                <i class='bx bxs-phone'></i>
-                Contactanos
-            </a>
-        </li>
-        <li class="nav_item">
-            <a href="./turno.html">
-                <i class='bx bxs-pencil'></i>
-                Turnos
-            </a>
-        </li>
-    </ul>
-    <label for="menu">
-        <i class="bx bx-menu"></i>
-        
-    </label>
-</nav>
-</header>
-<!------------------------CONTENEDOR--------------->
-<div class="contenedor-222">
-<h1 class="conocenos">Sobre Nosotros</h1>
-<p class="conocenos-p">Donde el estilo y el bienestar de tus amigos peludos son nuestra pasión. En Nudipets, entendemos que tus mascotas son más que solo animales, son miembros de tu familia. Nuestra misión es proporcionar un oasis de cuidado, comodidad y estilo para tus amigos de cuatro patas, asegurándonos de que siempre luzcan y se sientan en su mejor forma. nuestra historia fue fundada por amantes apasionados de los perros, nuestra peluquería canina comenzó con una visión sencilla pero poderosa: crear un espacio donde los perros reciban el cuidado de calidad que merecen en un ambiente. cálido y acogedor. Desde entonces, hemos crecido y evolucionado, pero nuestra dedicación a la satisfacción de nuestros clientes peludos y humanos sigue siendo inquebrantable. Nuestro talentoso equipo de estilistas caninos está compuesto por profesionales apasionados que adoran a los perros tanto como tú. Cada miembro de nuestro equipo está capacitado en las últimas técnicas de estilismo canino y se esfuerza por brindar a tus amigos peludos una experiencia de aseo segura y agradable. En Nudipets, ofrecemos una amplia gama de servicios diseñados para satisfacer las necesidades individuales de cada perro. Desde baños y cortes de pelo hasta tratamientos especiales y cuidado dental, nos enorgullece ofrecer un enfoque integral para el bienestar de tus mascotas.  Nuestra pasión por los perros es evidente en todo lo que hacemos. Cada miembro de nuestro equipo trata a tus mascotas con cariño y respeto.  Valoramos la relación que tenemos con nuestros clientes.</p>
-</div>
-<!---GALERIA CONTENEDORA-->
-<div class="sobre-n">
-    <div class="nosotros">
-        <img src="./assets/imagenes/nosotros1.jpg" alt="Imagen de nosotros">
-        <h3>Jessica Paggiere</h3>
-        <p>Profecional en Baño y Aseo</p>
+          </p>
+        </div>
+
+      </div>
     </div>
 
-    <div class="nosotros">
-        <img src="./assets/imagenes/nosotros.jpg" alt="Imagen de nosotros">
-        <h3>Enrique Morales</h3>
-        <p>Peluquero profesional Canino</p>
 
-    </div>
+ 
 
-    <div class="nosotros">
-        <img src="./assets/imagenes/nosotros3.jpg" alt="Imagen de nosotros">
-        <h3>Roxana Castro</h3>
-        <p>Estilista Profecional Canina y Felina</p>
-       
-
-    </div>
-
-    <div class="nosotros">
-        <img src="./assets/imagenes/nosotros4.png" alt="Imagen de nosotros">
-        <h3>Joaquin Molla</h3>
-        <p>Profecional en Baño y Aseo</p>
-        
-
-    </div>
-</div>
-
-    <!----GRID IMAGENES---->
-    <h2 class="perros">Nuestros mejores clientes!</h2>
-    <div class="gallery-container">
-        <div class="gallery__item">
-            <img src="./assets/imagenes/galeria2.jpg" alt="" class="gallery__img">
-            <h2 class="gallery__title">Rocky</h2>
-        </div>
-        <div class="gallery__item">
-            <img src="./assets/imagenes/galeria3.jpg" alt="" class="gallery__img">
-            <h2 class="gallery__title">Lilo</h2>
-        </div>
-        <div class="gallery__item">
-            <img src="./assets/imagenes/galeria4.jpg" alt="" class="gallery__img">
-            <h2 class="gallery__title">Toby</h2>
-        </div>
-        <div class="gallery__item">
-            <img src="./assets/imagenes/dasch.jpg" alt="" class="gallery__img">
-            <h2 class="gallery__title">Lola</h2>
-        </div>
-        <div class="gallery__item">
-            <img src="./assets/imagenes/galeria6.jpg" alt="" class="gallery__img">
-            <h2 class="gallery__title">Boris</h2>
-        </div>
-        <div class="gallery__item">
-            <img src="./assets/imagenes/galeria7.jpg" alt="" class="gallery__img">
-            <h2 class="gallery__title">Odin</h2>
-        </div>
-        <div class="gallery__item">
-            <img src="./assets/imagenes/galeria8.jpg" alt="" class="gallery__img">
-            <h2 class="gallery__title">Locky</h2>
-        </div>
-       </div>
-       <footer>
-        <img class="logo-footer" src="./assets/imagenes/patita-de-perro-removebg-preview.png" alt="">
-
-        <p>Contáctanos: <a href="mailto:peluquerianuditos@gmail.com">peluquerianuditos@gmail.com</a></p>
-        <p>Teléfono: (123) 456-7890</p>
-        
-      <div class="red"  >
-        <p>Síguenos en las redes sociales:</p>
-        <a href="#" class="bx bxl-facebook">Facebook</a>
-        <a href="#" class="bx bxl-twitter">Twitter</a>
-        <a href="#" class="bx bxl-instagram">Instagram</a>
-        <p>&copy; 2023 Mi Sitio Web - Todos los derechos reservados</p>
-       </div>
-
-    
-
-
-   
-</footer>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

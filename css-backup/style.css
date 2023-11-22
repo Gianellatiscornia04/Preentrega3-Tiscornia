@@ -205,7 +205,7 @@ font-family: 'Great Vibes', cursive;
     */
 
        
-   }
+   
    
    
 
@@ -588,7 +588,7 @@ text-align: center;
 }
 .imagenes123 .relleno{
     background-color: aqua;
-    grid-template-columns: 1fr:1fr;
+    grid-template-columns: 1fr 1fr;
 }
 .text-capa{
 width: 100%;
@@ -622,9 +622,7 @@ padding: 50px;
     width: 100%;
   
 }
-.conocenos-p{
-    
-}
+
 }
 
 
