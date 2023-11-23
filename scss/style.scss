@@ -240,7 +240,6 @@
     
   
     
-    .contact-form form button,
     .contact-form form input,
     .contact-form form textarea{
         width: 100%;
@@ -252,21 +251,7 @@
         border-bottom: 1px solid #d63031;
 
     }
-    .contact-form form button{
-        background: #d70e21;
-        color: #000;
-        border: 0;
-        text-transform: uppercase;
-        padding: 1em;
-    
-    }
-    .contact-form form button:hover,
-    .contact-form form button:focus{
-        background: #d63031;
-        color: #fff;
-        transition: background-color 1s ease-in-out;
-        outline: 0;
-    }
+   
 
     
     .contact-info{
@@ -283,6 +268,40 @@
             padding: .3em;
         }
 
+    }
+    button{
+        width: 100%;
+        
+        border:0;
+        background-image: linear-gradient(
+            150deg,
+            rgba(221, 134, 28, 0),
+            rgb(255, 0, 212),
+            #fc0a0a
+        );
+        border-radius: 8px;
+    color:#faf8f8;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+    
+    }
+    
+    button span{
+        width: 40%;
+        background-color: #ff0666;
+        padding: 16px 24px;
+        border-radius: 6px;
+        transition: .3s;
+    }
+    button:hover span {
+        background: none;
+    }
+    button:active {
+        transform: scale(0,9)
     }
     
 }

@@ -1,6 +1,14 @@
 @charset "UTF-8";
 /* condicionales */
 @import url("https://fonts.googleapis.com/css2? family= Archivo:ital,wght@1,300 & family= Great+Vibes & display=swap");
+h1 {
+  font-family: "DM Serif Display", serif;
+}
+
+.mejores-clientes, .text-center {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -241,7 +249,6 @@
   margin: 0;
   padding: 1em;
 }
-.content .contact-form form button,
 .content .contact-form form input,
 .content .contact-form form textarea {
   width: 100%;
@@ -251,20 +258,6 @@
   outline: 0;
   color: #fff;
   border-bottom: 1px solid #d63031;
-}
-.content .contact-form form button {
-  background: #d70e21;
-  color: #000;
-  border: 0;
-  text-transform: uppercase;
-  padding: 1em;
-}
-.content .contact-form form button:hover,
-.content .contact-form form button:focus {
-  background: #d63031;
-  color: #fff;
-  transition: background-color 1s ease-in-out;
-  outline: 0;
 }
 .content .contact-info {
   background: #000;
@@ -279,6 +272,32 @@
 }
 .content .contact-info ul, .content .contact-info li {
   padding: 0.3em;
+}
+.content button {
+  width: 100%;
+  border: 0;
+  background-image: linear-gradient(150deg, rgba(221, 134, 28, 0), rgb(255, 0, 212), #fc0a0a);
+  border-radius: 8px;
+  color: #faf8f8;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  padding: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.content button span {
+  width: 40%;
+  background-color: #ff0666;
+  padding: 16px 24px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+.content button:hover span {
+  background: none;
+}
+.content button:active {
+  transform: scale(0, 9);
 }
 
 /* TURNOS */
