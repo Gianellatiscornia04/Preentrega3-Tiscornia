@@ -1,23 +1,6 @@
 @charset "UTF-8";
 /* condicionales */
 @import url("https://fonts.googleapis.com/css2? family= Archivo:ital,wght@1,300 & family= Great+Vibes & display=swap");
-@media (max-width: 576px) {
-  .titulo1-2 {
-    left: 0;
-    width: 100%;
-    height: 95%;
-  }
-  .capa .text-capa {
-    width: 100%;
-    padding: 20px;
-  }
-  .caja-text {
-    width: 100%;
-    left: 0;
-    font-size: 20px;
-    top: 10;
-  }
-}
 * {
   margin: 0;
   padding: 0;
@@ -214,7 +197,12 @@
   border: 5px solid #fff;
 }
 
-/* --------SERVICIO------*/
+/* SERVICIOS */
+.col-md-4 img {
+  height: 400px;
+  width: 400px;
+}
+
 /* ----------------------------CONTACTANOS--------------------------- */
 .body-img {
   background: #181818;
@@ -293,6 +281,48 @@
   padding: 0.3em;
 }
 
+/* TURNOS */
+.body {
+  width: 100%;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.left-form {
+  width: 50%;
+  height: 68%;
+  overflow: hidden;
+  float: left;
+  background-size: cover;
+}
+
+.right-form {
+  text-align: center;
+  width: 50%;
+  height: 67%;
+  overflow: hidden;
+  margin: 0;
+  float: left;
+  background-color: #fdfcfc;
+}
+
+.formulario input {
+  width: 45%;
+}
+
+.mensaje {
+  width: 45%;
+}
+
+.enviar-o-cancelar {
+  font-size: 1.2rem;
+}
+
+.footer {
+  float: inline-end;
+  margin-right: 5%;
+}
+
 /* -----BOXICONS------- */
 .bx {
   font-size: 1.2em;
@@ -319,7 +349,7 @@
   font-size: 20px;
 }
 
-/* CONOCENOS */
+/* TURNOS */
 @media screen and (max-width: 768px) {
   .titulo1-2 {
     left: 0px;
@@ -358,13 +388,45 @@
     padding-top: 100px;
     font-size: 1.4rem;
   }
+  /* TURNOS */
+  .left-form {
+    display: none;
+  }
+  .right-form {
+    background-color: pink;
+    width: 100%;
+    height: 100%;
+  }
+  .formulario input {
+    width: 95%;
+  }
+  .formulario h6 {
+    font-size: 1.2em;
+  }
+  .mensaje {
+    width: 95%;
+  }
+  .enviar-o-cancelar {
+    font-size: 1.5rem;
+  }
+  .footer {
+    margin-right: 13%;
+  }
 }
-/* CONTACTO */
+/* SERVICIOS */
+.col-md-4 img {
+  height: 400px;
+  width: 100%;
+}
+
 @media screen and (max-width: 1200px) {
   .text-capa {
     width: 70%;
     padding-top: 100px;
     font-size: 1.4rem;
+  }
+  .footer {
+    margin-left: 10%;
   }
 }
 @media (min-width: 922px) {

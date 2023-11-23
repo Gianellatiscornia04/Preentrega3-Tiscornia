@@ -1,25 +1,147 @@
- @media (max-width:576px){
+    /*-------vista responsive-------  */
+    @media screen and (max-width:576px){
     
-
-   
-    .titulo1-2{
-      left:0;
-      width: 100%;
-      height: 95%;
-    }
-    .capa{
+        /* INICIO */
+           
+            .titulo1-2{
+              width: 100%;
+              height: 50%;
+            }
+            .sub-titulo{
+                padding: 0;
+            }
+           
+           
+            
+                .text-capa{
+                    width: 100%;
+                    top: 20px;
+                }
+                
+            }
+            
+        .caja-text{
+            width: 100%;
+            left: 0;
+            font-size: 20px;
+        }
+        /* TURNOS */
+        
+        
+        
+          @media screen and (max-width:768px){
+            .titulo1-2{
+                left:0px;
+                width: 100%;
+                height: 85%;
+               padding-top: 40px;
+            
+              }
+              .sub-titulo{
+                padding-top: 80px;
+              }
+            
+              
+                .text-capa{
+                    width: 100%;
+                    padding-top: 100px;
+                    font-size: 1.4rem;
+                }
+                /* CONOCENOS */
+                .contenedor-222{
+                    width: 100%;
+                    height: 100%;
+                }
+              
+            }
+           
+          
+          .caja-text{
+              width: 100%;
+              left: 0;
+              font-size: 20px;
+              top: 10px;}
+        
+             
+        
+              
+              @media screen and (max-width:992px){
+        .titulo1-2{
+            height: 95%;
+            font-size: 1.1em;
+        
+        }
         .text-capa{
             width: 100%;
-            padding: 20px;
+            padding-top: 100px;
+            font-size: 1.4rem;
         }
+         /* TURNOS */
+         .left-form{
+            display: none;
+                }
+                .right-form{
+                    background-color: pink;
+                    width: 100%;
+                  height: 100%;
+                }
+                .formulario{
+                    input{
+                        width: 95%;
+                    }
+                    h6{
+                        font-size: 1.2em;
+                    }
+                   
+                    
+                }
+        .mensaje{
+            width:95% ;
+        }
+        .enviar-o-cancelar{
+            font-size: 1.5rem;
+        }
+        .footer{
+            margin-right: 13%;
+        }
+        }
+        /* SERVICIOS */
+        .col-md-4{
+            img{
+                height: 400px;
+                width: 100%;
+            }
+        }  
         
-    }
-    
-.caja-text{
-    width: 100%;
-    left: 0;
-    font-size: 20px;
-    top: 10;
-}
-  }
+              
+          @media screen and (max-width:1200px){
+            .text-capa{
+                width: 70%;
+                padding-top: 100px;
+                font-size: 1.4rem;
+            }
+            .footer{
+                margin-left: 10%;
+            }
+          }
+        @media (min-width:922px){
+            .body-img{
+                padding: 0 4rem;
+            }
+            .contact-wrapper{
+                display: grid;
+                grid-template-columns: 2fr 1fr;
+            }
+            .contact-wrapper > *{
+                padding: 2em;
+            }
+            .contact-info h4,
+            .contact-info ul,
+            .contact-info p{
+                padding: 1em;
+                text-align: left;
+            }
+        
+        
+        }
 
