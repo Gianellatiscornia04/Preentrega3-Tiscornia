@@ -21,6 +21,11 @@ h1 {
   height: 100px;
 }
 
+/* NAVEGADOR */
+.navbar-nav .nav-item:hover {
+  background-color: rgba(252, 70, 182, 0.6588235294);
+}
+
 /* CONTENEDOR */
 .img1 {
   top: 0;
