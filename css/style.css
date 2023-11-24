@@ -23,7 +23,7 @@ h1 {
 
 /* NAVEGADOR */
 .navbar-nav .nav-item:hover {
-  background-color: rgba(252, 70, 182, 0.6588235294);
+  background-color: pink;
 }
 
 /* CONTENEDOR */
@@ -41,7 +41,7 @@ h1 {
 
 .titulo1-2 {
   position: absolute;
-  background-color: rgba(12, 12, 12, 0.555);
+  background-color: rgba(0, 0, 0, 0.363);
   color: #fff;
   top: 25%;
   left: 60%;
@@ -174,8 +174,8 @@ h1 {
 /* ----------CONOCENOS---------- */
 /* CONTENEDOR */
 .subti {
-  background: #000;
-  color: antiquewhite;
+  background: black;
+  color: white;
 }
 
 .card {
@@ -186,13 +186,17 @@ h1 {
   height: 200px;
 }
 
+.card :hover {
+  border: 5px solid white;
+}
+
 .card-title {
-  color: #000;
+  color: black;
   margin-top: 5%;
 }
 
 .card-text {
-  color: #000;
+  color: black;
   margin-top: 5%;
 }
 
@@ -207,7 +211,7 @@ h1 {
 }
 
 #galeria img:hover {
-  border: 5px solid #fff;
+  border: 5px solid white;
 }
 
 /* SERVICIOS */
@@ -241,7 +245,7 @@ h1 {
   padding: 1em;
 }
 .content .contact-form {
-  background: #222222;
+  background: rgb(34, 34, 34);
 }
 .content .contact-form form {
   display: grid;
@@ -265,9 +269,9 @@ h1 {
   border-bottom: 1px solid #d63031;
 }
 .content .contact-info {
-  background: #000;
+  background: black;
 }
-.content .contact-info h4, .content .contact-info ul, .content .contact-info p {
+.content .contact-info h3, .content .contact-info ul, .content .contact-info p {
   text-align: center;
   margin: 0 0 1rem 0;
 }
@@ -279,11 +283,11 @@ h1 {
   padding: 0.3em;
 }
 .content button {
-  width: 100%;
+  width: 40%;
   border: 0;
-  background-image: linear-gradient(150deg, rgba(221, 134, 28, 0), rgb(255, 0, 212), #fc0a0a);
+  background-image: linear-gradient(150deg, black, pink, rgba(255, 0, 179, 0.904));
   border-radius: 8px;
-  color: #faf8f8;
+  color: black;
   display: flex;
   justify-content: center;
   font-size: 18px;
@@ -292,8 +296,8 @@ h1 {
   transition: 0.3s;
 }
 .content button span {
-  width: 40%;
-  background-color: #ff0666;
+  width: 100%;
+  background-color: pink;
   padding: 16px 24px;
   border-radius: 6px;
   transition: 0.3s;

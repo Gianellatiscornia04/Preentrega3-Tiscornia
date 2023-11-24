@@ -18,7 +18,7 @@
      /* NAVEGADOR */
      .navbar-nav{
         .nav-item:hover{
-            background-color: #fc46b6a8;
+            background-color:$primario;
         }
      }
 /* CONTENEDOR */
@@ -38,7 +38,7 @@
 
 .titulo1-2{
     position: absolute;
-    background-color: rgba(12, 12, 12, 0.555);
+    background-color:$transparent;
     color: #fff;
     top: 25%;
     left: 60%;
@@ -169,8 +169,8 @@
 /* CONTENEDOR */
 .subti{
 
-    background: #000;
-    color: antiquewhite;
+    background:$secundario;
+    color:$terciario;
 }
 .card{
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
@@ -178,13 +178,18 @@
     img{
         height: 200px;
     }
+    
 }
+.card :hover{
+    border: 5px solid $terciario; 
+}
+
 .card-title{
-    color: #000;
+    color: $secundario;
     margin-top: 5%;
 }
 .card-text{
-    color: #000;
+    color: $secundario;
     margin-top: 5%
 }
 #galeria .col-lg-4{
@@ -196,7 +201,7 @@
     height: 250px;
 }
 #galeria img:hover{
-    border: 5px solid #fff;
+    border: 5px solid $terciario;
 }
 /* SERVICIOS */
 .col-md-4{
@@ -231,7 +236,7 @@
     }
     
     .contact-form{
-        background: #222222;
+        background:$color;
         form{
             display: grid;
         grid-template-columns: 1fr 1fr;
@@ -263,8 +268,8 @@
 
     
     .contact-info{
-        background: #000;
-        h4,ul,p{
+        background:$secundario;
+        h3,ul,p{
             text-align: center;
             margin: 0 0 1rem 0;
         }
@@ -278,17 +283,17 @@
 
     }
     button{
-        width: 100%;
+        width: 40%;
         
         border:0;
         background-image: linear-gradient(
             150deg,
-            rgba(221, 134, 28, 0),
-            rgb(255, 0, 212),
-            #fc0a0a
+            $secundario,
+            $primario,
+            $rosa
         );
         border-radius: 8px;
-    color:#faf8f8;
+    color:$secundario;
     display: flex;
     justify-content: center;
     font-size: 18px;
@@ -299,8 +304,8 @@
     }
     
     button span{
-        width: 40%;
-        background-color: #ff0666;
+        width: 100%;
+        background-color:$primario;
         padding: 16px 24px;
         border-radius: 6px;
         transition: .3s;
