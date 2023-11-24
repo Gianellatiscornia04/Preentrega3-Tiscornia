@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/* condicionales */
+/* Mixins*/
 @import url("https://fonts.googleapis.com/css2? family= Archivo:ital,wght@1,300 & family= Great+Vibes & display=swap");
 h1 {
   font-family: "DM Serif Display", serif;
@@ -32,7 +32,8 @@ h1 {
   width: 100%;
   height: 100vh;
 }
-.img1 .img-inicio {
+
+.img-inicio {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -222,8 +223,8 @@ h1 {
 
 /* ----------------------------CONTACTANOS--------------------------- */
 .body-img {
-  background: #181818;
-  color: #fff;
+  background: rgb(34, 34, 34);
+  color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 0 1.5em;
 }
@@ -311,9 +312,9 @@ h1 {
 
 /* TURNOS */
 .body {
+  top: 0;
   width: 100%;
   height: 100vh;
-  font-family: sans-serif;
 }
 
 .left-form {
@@ -327,7 +328,7 @@ h1 {
 .right-form {
   text-align: center;
   width: 50%;
-  height: 67%;
+  height: 70%;
   overflow: hidden;
   margin: 0;
   float: left;
@@ -343,7 +344,21 @@ h1 {
 }
 
 .enviar-o-cancelar {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+}
+.enviar-o-cancelar .enviar {
+  background-color: pink;
+  width: 20%;
+}
+.enviar-o-cancelar .enviar:hover {
+  background-color: rgb(106, 241, 106);
+}
+.enviar-o-cancelar .cancelar {
+  background-color: rgba(255, 0, 179, 0.904);
+  width: 20%;
+}
+.enviar-o-cancelar .cancelar:hover {
+  background-color: rgb(236, 73, 73);
 }
 
 .footer {
@@ -378,6 +393,10 @@ h1 {
 }
 
 /* TURNOS */
+.enviar-o-cancelar:hover {
+  font-size: 1.5rem;
+}
+
 @media screen and (max-width: 768px) {
   .titulo1-2 {
     left: 0px;
@@ -434,7 +453,7 @@ h1 {
   .mensaje {
     width: 95%;
   }
-  .enviar-o-cancelar {
+  .enviar-o-cancelar:hover {
     font-size: 1.5rem;
   }
   .footer {

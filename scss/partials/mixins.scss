@@ -1,0 +1,11 @@
+/* Mixins*/
+@mixin condiciones{
+    width: 100px;
+    height: 100px;
+
+}
+@mixin ancho-alto{
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}

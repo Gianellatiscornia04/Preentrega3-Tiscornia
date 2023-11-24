@@ -1,5 +1,7 @@
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,windows,macos
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,windows,macos
+.bootstrap-5.3.2-dist
+
 
 ### macOS ###
 # General
