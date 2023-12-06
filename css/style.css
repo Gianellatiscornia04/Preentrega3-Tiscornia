@@ -158,20 +158,6 @@ h1 {
   background-position: center -20px;
 }
 
-.text-capa {
-  color: white;
-  text-shadow: 0 0 10px rgb(7, 6, 6);
-  text-align: center;
-  width: 50%;
-  margin: 2rem auto;
-  height: 50%;
-  padding-top: 30px;
-}
-
-.card {
-  display: flex;
-}
-
 /* ----------CONOCENOS---------- */
 /* CONTENEDOR */
 .subti {
@@ -223,7 +209,7 @@ h1 {
 
 /* ----------------------------CONTACTANOS--------------------------- */
 .body-img {
-  background: rgb(34, 34, 34);
+  background: pink;
   color: white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding: 0 1.5em;
@@ -240,13 +226,13 @@ h1 {
   font-size: 3em;
 }
 .content .contact-wrapper {
-  box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 20px 0 rgba(14, 8, 8, 0.801);
 }
 .content .contact-wrapper > * {
   padding: 1em;
 }
 .content .contact-form {
-  background: rgb(34, 34, 34);
+  background: pink;
 }
 .content .contact-form form {
   display: grid;
@@ -267,7 +253,7 @@ h1 {
   background: none;
   outline: 0;
   color: #fff;
-  border-bottom: 1px solid #d63031;
+  border-bottom: 1px solid #020202;
 }
 .content .contact-info {
   background: black;
@@ -381,10 +367,6 @@ h1 {
   .sub-titulo {
     padding: 0;
   }
-  .text-capa {
-    width: 100%;
-    top: 20px;
-  }
 }
 .caja-text {
   width: 100%;
@@ -397,6 +379,7 @@ h1 {
   font-size: 1.5rem;
 }
 
+/* TARJETAS */
 @media screen and (max-width: 768px) {
   .titulo1-2 {
     left: 0px;

@@ -147,20 +147,8 @@
     background-size: cover;
     background-position: center -20px;
    }
-   .text-capa{
-    color: $terciario;
-    text-shadow:0 0 10px rgb(7, 6, 6);
-    text-align: center ;
-    width: 50%;
-    margin: 2rem auto;
-    height: 50%;
-    padding-top: 30px;
-   }
-   .card{
-    display: flex;
-   }
-
-
+   
+   
 
  /* ----------CONOCENOS---------- */
 /* CONTENEDOR */
@@ -211,7 +199,7 @@
     
     /* ----------------------------CONTACTANOS--------------------------- */
 .body-img{
-    background:$color;
+    background:$primario;
     color: $terciario;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0 1.5em;
@@ -226,14 +214,14 @@
         font-size: 3em;
     }
     .contact-wrapper{
-        box-shadow: 0 0 20px 0 rgba(255,255,255, .3);
+        box-shadow: 0 0 20px 0 rgba(14, 8, 8, 0.801);
         >*{
             padding: 1em;
         }
     }
     
     .contact-form{
-        background:$color;
+        background:$primario;
         form{
             display: grid;
         grid-template-columns: 1fr 1fr;
@@ -258,7 +246,7 @@
         background: none;
         outline: 0;
         color: #fff;
-        border-bottom: 1px solid #d63031;
+        border-bottom: 1px solid #020202;
 
     }
    
