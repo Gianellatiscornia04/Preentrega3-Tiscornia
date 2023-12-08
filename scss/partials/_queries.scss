@@ -10,7 +10,7 @@
             .sub-titulo{
                 padding: 0;
             }
-        }
+        
         
             
     
@@ -28,8 +28,15 @@
             font-size: 1.5rem;
 
         }
-        /* TARJETAS */
+        /*SERVICIOS */
+        .card-text2{
+            width: 100%;
+            
+        }
+       
         
+       
+    }
         
         
         
@@ -56,6 +63,12 @@
                     width: 100%;
                     height: 100%;
                 }
+                /* SERVICIOS */
+               
+                .card-title1{
+                    text-align: center;
+                }
+                
               
             }
            
@@ -67,7 +80,7 @@
               top: 10px;}
         
              
-        
+             
               
               @media screen and (max-width:992px){
         .titulo1-2{
@@ -108,14 +121,11 @@
         .footer{
             margin-right: 13%;
         }
-        }
+    
         /* SERVICIOS */
-        .col-md-4{
-            img{
-                height: 400px;
-                width: 100%;
-            }
-        }  
+       
+
+    }
         
               
           @media screen and (max-width:1200px){
